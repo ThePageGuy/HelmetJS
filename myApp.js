@@ -1,12 +1,9 @@
 const express = require('express');
+const helmet = require('helmet')
 const app = express();
 
 
-// Require Helmet
-const helmet = require('helmet');
 
-// Use Helmet
-app.use(helmet());
 
 
 
